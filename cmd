@@ -1,0 +1,1 @@
+emcc -o game.html main.c -Os -Wall /home/miloje/raylib/src/libraylib.a -I. -I/usr/local/include -L. -L/home/miloje/raylib/src/libraylib.a -s ASYNCIFY -s USE_GLFW=3 -DPLATFORM_WEB --shell-file /home/miloje/raylib/src/minshell.html
